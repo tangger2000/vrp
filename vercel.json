@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    {"source": "/(.*)", "destination": "https://yutangli.net/*"}，
+    {"source": "/(.*)", "destination": "https://yutangli.net/*"}
   ]
 }

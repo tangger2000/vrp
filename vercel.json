@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    {"source": "/dsm/(.*)", "destination": "https://yutangli.net/dsm/#/$1"},
+    {"source": "/dsm/(.*)", "destination": "https://yutangli.net/dsm/$1"},
     {"source": "/(.*)", "destination": "https://yutangli.net/$1"}
   ]
 }

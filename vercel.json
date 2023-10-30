@@ -1,4 +1,24 @@
 {
+  "headers": [
+    {
+      "source": "/console/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, s-maxage=3600, max-age=3600"
+        }
+      ]
+    }
+  ],
   "rewrites": [
     {"source": "/dsm/(.*)", "destination": "https://yutangli.net/dsm/$1"},
     {"source": "/(.*)", "destination": "https://yutangli.net/$1"}

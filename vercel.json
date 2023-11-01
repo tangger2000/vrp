@@ -22,6 +22,6 @@
   ],
   "rewrites": [
     {"source": "/dsm/(.*)", "destination": "https://www.yutangli.net/dsm/$1"},
-    {"source": "/(.*)", "destination": "https://www.baidu.com/$1"}
+    {"source": "/(.*)", "destination": "https://www.yutangli.net/$1"}
   ]
 }
